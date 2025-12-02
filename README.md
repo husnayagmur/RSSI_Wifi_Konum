@@ -1,5 +1,5 @@
 # ESP32 WiFi Tarama ve Trilaterasyon (RSSI ile Konum Tahmini)
-
+Dr. Öğr. Üyesi Hasan SERDAR Hocamızın Kablosuz Teknolojiler dersi için hazırlanmıştır
 Bu proje, ESP32 ile çevredeki WiFi ağlarını tarayıp SSID ve RSSI değerlerini seri port üzerinden bilgisayara gönderir.  
 Bilgisayar tarafında çalışan bir Python script'i, bu RSSI değerlerini kullanarak yaklaşık mesafe hesaplar ve daha önce konumu bilinen erişim noktalarına göre basit bir **trilaterasyon** tahmini yapar.
 
