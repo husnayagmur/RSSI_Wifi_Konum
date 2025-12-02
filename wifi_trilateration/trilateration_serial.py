@@ -25,7 +25,6 @@ def trilateration(known_aps, target_rssi):
     res = minimize(distance_error, (0,0), args=(known_aps, target_rssi), method='L-BFGS-B')
     return res.x
 
-# Windows için COM3, macOS/Linux için /dev/ttyUSB0 olabilir
 ser = serial.Serial("COM8", 115200, timeout=1)
 
 while True:
